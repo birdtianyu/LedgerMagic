@@ -1,7 +1,7 @@
 # LedgerMagic
 
 
-2020.3.20
+## 2020.3.20
 
 Image cropping algorithm for identifying ledger text
 
