@@ -1,5 +1,8 @@
 # LedgerMagic
 
+
+2020.3.20
+
 Image cropping algorithm for identifying ledger text
 
 通帳テキストを識別するための画像トリミングアルゴリズム
@@ -8,4 +11,3 @@ Image cropping algorithm for identifying ledger text
 
 
 
-2020.3.20
