@@ -11,6 +11,7 @@ Image cropping algorithm for identifying ledger text
 
 ## 2020.5.19
 新しい改善案をアップロードしました。
+➞20200519説明資料 - 副本.pptx
 
 ## 2020.6.23
 新しいアルゴリズムのテスト＆分析をアップデートしました。
