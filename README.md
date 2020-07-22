@@ -17,6 +17,10 @@ Image cropping algorithm for identifying ledger text
 新しいアルゴリズムのテスト＆分析をアップデートしました。
 ➞20200622説明資料.pptx & Demo(20200623)
 
+## 2020.7.22
+「システムとは何か」のプレゼントをアップデートしました。
+➞20200722システムは何か.pdf & システムは何か.pptx
+
 ## How to use
 
 FalconMainWindow.py
