@@ -25,9 +25,12 @@ Image cropping algorithm for identifying ledger text
 「システムとは何か」のプレゼントを更新しました。
 ➞20200824システム_データとは何か.pdf & システム_データは何か.pptx
 
+## 2020.9.13
+発表資料を更新しました。
+➞20200913通帳認識システム.pptx
+
 ## How to use
 
 FalconMainWindow.py
-
 
 
