@@ -1,19 +1,15 @@
 import io
 import os
+import pdb
 
 # Imports the Google Cloud client library
 from google.cloud import vision
-from google.cloud.vision import types
-
 from google.oauth2 import service_account
 
+pdb.set_trace()
 
-credentials = service_account.Credentials.from_service_account_file('macro-approach-266800-ff9e54650134.json')
-
+credentials = service_account.Credentials.from_service_account_file('Project-491c3b474809.json')
 client = vision.ImageAnnotatorClient(credentials=credentials)
-
-# Instantiates a client
-# client = vision.ImageAnnotatorClient()
 
 # The name of the image file to annotate
 file_name = os.path.abspath('result.jpg')
@@ -22,11 +18,13 @@ file_name = os.path.abspath('result.jpg')
 with io.open(file_name, 'rb') as image_file:
     content = image_file.read()
 
-image = types.Image(content=content)
+image = vision.Image(content=content)
 
 # Performs label detection on the image file
 response = client.label_detection(image=image)
 labels = response.label_annotations
+
+pdb.set_trace()
 
 print('Labels:')
 for label in labels:
