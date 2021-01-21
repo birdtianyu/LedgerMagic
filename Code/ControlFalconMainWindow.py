@@ -12,7 +12,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from FalconMainWindow import Ui_MainWindow
 from Falcon import CropPicture
-
+import webbrowser
 
 class ControlFalconMainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -27,6 +27,8 @@ class ControlFalconMainWindow(QMainWindow, Ui_MainWindow):
         self.OpenImgButton.clicked.connect(self.OpenImg)     # 打开图片
         self.ClearImgButton.clicked.connect(self.ClearImgs)  # 清空图片
         self.CutImgButton.clicked.connect(self.CutImg)       # 裁剪图片
+
+        self.actionAbout.triggered.connect(self.Goto)        # 跳转到我的Github首页
 
     def OpenImg(self):
         """载入图片"""
@@ -116,6 +118,16 @@ class ControlFalconMainWindow(QMainWindow, Ui_MainWindow):
             height = self.OriginalImglabel.geometry().height()
             scaredPixmap = showFin.scaled(width, height, aspectRatioMode=Qt.KeepAspectRatio)  # 等比例缩放
             self.CutImglabel.setPixmap(scaredPixmap)
+
+    def jump(self, URL):
+        return webbrowser.open(URL)
+
+    def Goto(self):
+        URL = "https://github.com/birdtianyu"
+        if self.jump(URL):
+            print("Success!")
+
+    
 
 
 def MyMain():

@@ -181,3 +181,10 @@ class Ui_MainWindow(object):
         self.actionPerferences.setText(_translate("MainWindow", "Perferences"))
         self.actionLanguage.setText(_translate("MainWindow", "Language"))
         self.actionAbout.setText(_translate("MainWindow", "About"))
+
+        
+        
+        
+        
+        
+        
