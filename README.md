@@ -56,6 +56,10 @@ Image cropping algorithm for identifying ledger text
 > ➞./説明資料/20210121シャムネットワークを用いたインタラクティブ認識システム.pptx
 >
 > ➞./説明資料/20210121シャムネットワークを用いたインタラクティブ認識システム.pdf
+>
+> ➞Code: ./Interactive_Recognition_System
+>
+> ➞Video: ./Interactive_Recognition_System/demo.mkv
 
 
 ## How to use
