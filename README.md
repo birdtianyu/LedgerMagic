@@ -51,6 +51,13 @@ Image cropping algorithm for identifying ledger text
 > ➞./説明資料/20201221最近の研究.pdf
 
 
+## 2021.1.22
+資料を更新しました。
+> ➞./説明資料/20210121シャムネットワークを用いたインタラクティブ認識システム.pptx
+>
+> ➞./説明資料/20210121シャムネットワークを用いたインタラクティブ認識システム.pdf
+
+
 ## How to use
 
 > ➞./Code/FalconMainWindow.py
