@@ -61,6 +61,14 @@ Image cropping algorithm for identifying ledger text
 >
 > ➞Video: ./Interactive_Recognition_System/demo.mkv
 
+## 2021.2.23
+
+資料を更新しました。
+
+> ➞./説明資料/20210223機械学習の基礎3.pptx
+>
+> ➞./説明資料/20210223機械学習の基礎3.pdf
+
 
 ## How to use
 
