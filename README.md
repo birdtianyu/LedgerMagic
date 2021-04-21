@@ -78,6 +78,15 @@ Image cropping algorithm for identifying ledger text
 >
 > ➞./説明資料/20210323機械学習の基礎4.pdf
 
+## 2021.4.22
+
+
+資料を更新しました。
+
+> ➞./説明資料/20210423機械学習の基礎5.pptx
+>
+> ➞./説明資料/20210423機械学習の基礎5.pdf
+
 ## How to use
 
 > ➞./Code/FalconMainWindow.py
