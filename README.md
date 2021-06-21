@@ -96,6 +96,17 @@ Image cropping algorithm for identifying ledger text
 >
 > ➞./説明資料/20210524エピポーラ幾何学.pdf
 
+## 2021.6.21
+
+
+資料を更新しました。
+
+> ➞./説明資料/20210621デジタルトランスフォーメーション.pptx
+>
+> ➞./説明資料/20210621デジタルトランスフォーメーション.pdf
+
+
+
 ## How to use
 
 > ➞./Code/FalconMainWindow.py
